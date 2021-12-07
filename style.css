@@ -1,0 +1,185 @@
+.banner {
+  background: url('images/home.jpeg') no-repeat center center;
+  background-size: cover;
+  padding-top: 16%;
+  padding-bottom: 16%;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+
+.banner .btn {
+  color: black;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.banner .btn:hover {
+  background: teal;
+}
+
+.tentang {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 2.5 rem;
+  font-size: 2.5rem;
+}
+.tentang span {
+  color: rgb(250, 204, 0);
+}
+
+.menu {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+.menu span {
+  color: rgb(250, 204, 0);
+}
+
+#menu .btn {
+  color: black;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+#menu .btn:hover {
+  background: teal;
+}
+
+.review img {
+  width: 250px;
+  border: 5px solid #fff;
+}
+
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.review #heading-review {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.review span {
+  color: rgb(250, 204, 0);
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+a.social:hover {
+  background: teal;
+}
+
+.stars i {
+  font-size: 1.4rem;
+  color: rgb(250, 204, 0);
+  margin-bottom: 0.5em;
+}
+
+.contact {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.contact span {
+  color: rgb(250, 204, 0);
+}
+
+footer {
+  background: #111;
+  height: auto;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 2rem;
+}
+
+.footer-content p {
+  max-width: 400px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4rem 0 2rem;
+}
+
+.socials li {
+  margin: 0 15px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.5rem;
+  transition: color 0.4 ease;
+}
+
+.socials a:hover i {
+  color: teal;
+}
+
+.footer-bottom {
+  background: #111;
+  width: 100%;
+  padding-top: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
